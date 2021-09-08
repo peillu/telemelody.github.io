@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TeleMelody</title>
+</head>
+
+<body style="text-align: left;">
+<h1>Demo Page for "TeleMelody: Lyric-to-Melody Generation with a Template-Based Two-Stage Method"</h1>
+
+<br>
+<br>
+<h4 style='display:inline'>Abstract: </h4> <p style='display:inline'> Lyric-to-melody generation is an important task in automatic songwriting. Previous lyric-to-melody generation systems usually adopt end-to-end models that directly generate melodies from lyrics, which suffer from several issues: 1) lack of paired lyric-melody training data; 2) lack of control on generated melodies. In this paper, we develop TeleMelody, a two-stage lyric-to-melody generation system with music structure information (e.g., tonality, chord, rhythm and cadence) as the bridge between lyric and melody, i.e., the system consists of a lyric-to-template module and a template-to-melody module. TeleMelody has two advantages. First, it is data efficient. The template-to-melody module is trained in a self-supervised way (i.e., the source template data is extracted from the target melody) that does not need any paired data, and the lyric-to-template module is made up of some rule-based modules and a lyric-to-rhythm model trained with paired lyric and rhythm, which is easier to obtain than the paired lyric-melody data. Second, it is controllable. The designs of template and alignment regularization guided by musical knowledge ensure that the generated melodies are under the control of musical elements that can be adjusted at will. Both subjective and objective experimental evaluations demonstrate that TeleMelody can generate melody with higher quality, better controllability, and less requirement on paired lyric-melody data than previous generation systems. </p>
